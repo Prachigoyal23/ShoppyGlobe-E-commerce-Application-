@@ -1,0 +1,137 @@
+/* Base styles for header */
+header {
+  background-color: #ffffff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding-bottom: 0.5rem;
+}
+
+/* Logo and Title */
+header h2 {
+  display: flex;
+  align-items: center;
+  font-size: 2rem;
+  color: #0b3d91;
+  margin: 1rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header h2 img {
+  margin-left: 10px;
+  border-radius: 8px;
+}
+
+/* Main Navigation Bar */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+  flex-wrap: wrap;
+  margin-top: 8px;
+}
+
+/* Link Styles */
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  padding: 8px 12px;
+  transition: color 0.3s ease, background-color 0.3s ease;
+  border-radius: 4px;
+}
+
+nav a:hover {
+  background-color: #f0f0f0;
+  color: #0b3d91;
+}
+
+/* Left Nav Links */
+nav div {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+/* Search Box */
+nav input[type="text"] {
+  padding: 10px 70px;
+  border: 1px solid #333;
+  border-radius: 20px;
+  font-size: 15px;
+  transition: box-shadow 0.3s ease;
+  outline: none;
+  flex-shrink: 0;
+}
+
+nav input[type="text"]:focus {
+  box-shadow: 0 0 5px #0b3d91;
+  border-color: #0b3d91;
+}
+
+/* Carousel overrides */
+.carousel .slide img {
+  border-radius: 10px;
+  max-height: 650px;
+  object-fit: cover;
+  width: 100%;
+}
+
+/* ---------- Responsive Design ---------- */
+
+/* Medium screens (tablet) */
+@media (max-width: 768px) {
+  header h2 {
+    font-size: 1.5rem;
+  }
+
+  nav {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+
+  nav div {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  nav input[type="text"] {
+    width: 50%;
+    max-width: 50%;
+    margin-top: 0.5rem;
+  }
+}
+
+/* Small screens (phones) */
+@media (max-width: 480px) {
+  header h2 {
+    font-size: 1.2rem;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  header h2 img {
+    margin-top: 0.5rem;
+    width: 40px;
+    height: 40px;
+  }
+
+  nav {
+    padding: 0.5rem;
+    align-items: center;
+  }
+
+  nav div {
+    align-items: center;
+    width: 100%;
+  }
+
+  nav a {
+    padding: 6px 10px;
+    font-size: 14px;
+  }
+
+  nav input[type="text"] {
+    font-size: 13px;
+  }
+}
