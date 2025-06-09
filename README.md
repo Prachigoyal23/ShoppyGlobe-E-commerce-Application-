@@ -6,19 +6,32 @@ Welcome to ShoppyGlobe, a modern, fully functional e-commerce website built with
 
 ## ⚙️ Features
 
-✅ Responsive and Clean UI
-✅ Add/Remove products to/from cart
-✅ Product filtering by category
-✅ Real-time search
-✅ Quantity management in cart
-✅ Checkout and order success page
-✅ Persistent cart using localStorage
-✅ Dynamic routing with React Router
-✅ Toast notifications for actions
-✅ Carousel on home page
-✅ Category and product detail pages
-✅ Custom 404 Not Found page
-✅ Footer with helpful links and social icons
+    ✅ Responsive and Clean UI
+
+    ✅ Add/Remove products to/from cart
+
+    ✅ Product filtering by category
+
+    ✅ Real-time search
+
+    ✅ Quantity management in cart
+
+    ✅ Checkout and order success page
+
+    ✅ Persistent cart using localStorage
+
+    ✅ Dynamic routing with React Router
+
+    ✅ Toast notifications for actions
+
+    ✅ Carousel on home page
+
+    ✅ Category and product detail pages
+
+    ✅ Custom 404 Not Found page
+
+    ✅ Footer with helpful links and social icons
+
 
 ---
 
@@ -42,31 +55,31 @@ Welcome to ShoppyGlobe, a modern, fully functional e-commerce website built with
 
 ## 📁 Folder Structure
 
-src/
-├── components/
-│   ├── Cart.jsx
-│   ├── CartItem.jsx
-|   |── CartStyle.css
-│   ├── CategoryPage.jsx
-│   ├── Checkout.jsx
-│   ├── Footer.jsx
-|   |── Header.css
-│   ├── Header.jsx
-│   ├── NotFound.jsx
-│   ├── OrderSuccess.jsx
-│   ├── ProductDetail.jsx
-│   ├── ProductItem.jsx
-│   ├── ProductList.jsx
-|   |── ProductStyles.css
-│   └── SearchResults.jsx
-├── redux/
-│   ├── CartSlice.jsx
-│   └── store.jsx
-├── hooks/
-│   └── useFetchProducts.js
-├── App.jsx
-|──index.css
-└── main.jsx
+    src/
+    ├── components/
+    │   ├── Cart.jsx
+    │   ├── CartItem.jsx
+    |   |── CartStyle.css
+    │   ├── CategoryPage.jsx
+    │   ├── Checkout.jsx
+    │   ├── Footer.jsx
+    |   |── Header.css
+    │   ├── Header.jsx
+    │   ├── NotFound.jsx
+    │   ├── OrderSuccess.jsx
+    │   ├── ProductDetail.jsx
+    │   ├── ProductItem.jsx
+    │   ├── ProductList.jsx
+    |   |── ProductStyles.css
+    │   └── SearchResults.jsx
+    ├── redux/
+    │   ├── CartSlice.jsx
+    │   └── store.jsx
+    ├── hooks/
+    │   └── useFetchProducts.js
+    ├── App.jsx
+    |──index.css
+    └── main.jsx
 
 ---
 
@@ -99,5 +112,12 @@ Runs the app in development mode. Open http://localhost:5173 to view it in your 
 ## 🛒 APIs Used
 
 All product data comes from DummyJSON – a free mock API for products, categories, and search.
+
+---
+
+## GitHub Link
+
+   ```bash
+   https://github.com/Prachigoyal23/ShoppyGlobe-E-commerce-Application-
 
 
