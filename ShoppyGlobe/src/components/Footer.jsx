@@ -28,9 +28,9 @@ function Footer(){
 
         <div>
           <h4>Help</h4>
-          <a href="mailto:goyalprachi2324@gmail.com">Contact</a>
+          <a href="tel:+918359978903">Contact</a>
           <br />
-          <a href="tel:+918359978903">Support</a>
+          <a href="mailto:goyalprachi2324@gmail.com">Support</a>
           <br />
           <a href="#">Terms & Conditions</a>
         </div>

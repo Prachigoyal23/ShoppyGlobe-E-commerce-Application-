@@ -1,23 +1,3 @@
-// import { useState, useEffect } from 'react';
-
-// const useFetchProducts = () => {
-//   const [products, setProducts] = useState([]);
-//   const [error, setError] = useState(null);
-//   const [loading, setLoading] = useState(true);
-
-//   useEffect(() => {
-//     fetch('https://dummyjson.com/products')
-//       .then(res => res.json())
-//       .then(data => setProducts(data.products))
-//       .catch(err => setError(err.message))
-//       .finally(() => setLoading(false));
-//   }, []);
-
-//   return { products, error, loading };
-// };
-
-// export default useFetchProducts;
-
 import { useState, useEffect } from 'react';
 
 const useFetchProducts = () => {
