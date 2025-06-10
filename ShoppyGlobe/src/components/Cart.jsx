@@ -13,7 +13,6 @@ function Cart(){
   return (
     <div className="cart-container">
       <h2>Your Cart</h2>
-      {/* <button className="back-home" onClick={()=>{Navigate('/')}}>Start Shopping</button> */}
       {cartItems.length === 0 ? <p>You haven’t added anything yet.</p> : (
         cartItems.map(item => (
           <CartItem key={item.id} item={item} />

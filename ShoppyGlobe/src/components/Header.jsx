@@ -7,7 +7,7 @@ import './Header.css'
 function Header(){
   const [search, setSearch] = useState('');
   const navigate = useNavigate();
-  const location = useLocation(); // 👈 Get current route
+  const location = useLocation(); //  Get current route
 
   const handleSearch = (e) => {
     if (e.key === 'Enter' && search.trim()) {
